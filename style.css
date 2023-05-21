@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@200;300;400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --main-color: #2196f3;
+    --main-color-alt: #000080;
+    --main-colorr: #ffcc00;
+    --section-background: #ffffff;
+}
+body{
+    background-color: var(--section-background);
+}
+.footer{
+    background: var(--main-color-alt);
+    padding-top: 10px;
+    margin-top: 100% ;
+}
+.footer-about{
+    margin-bottom: 30px;
+    box-shadow: 0 5px 6px #010141;
+}
+/*image logo */
+.footer-about .footer-logo a img{
+    width: 70px;
+}
+/*name logo*/
+.footer-about .footer-logo a{
+    text-decoration: none;
+    font-size: 25px;
+    color: var(--section-background);
+    font-family: 'Tajawal', sans-serif;
+}
+/*body socials meda*/
+.footer-about .socials{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.footer-about ul li {
+    list-style: none;
+}
+/*icon socials meda*/
+.footer-about ul li a{
+    text-decoration: none;
+    color: var(--section-background);
+    width: 45px;
+    height: 45px;
+    margin-top: 10px;
+    margin-right: 20px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease-out;
+}
+/* hover icon socials meda*/
+.footer-about ul li a:hover{
+    color: var(--main-color);
+}
+/*text one*/
+.footer-widget h6{
+    color: var(--section-background);
+    font-size: 16px;
+    font-weight:200;
+    font-family: 'Cairo', sans-serif;
+}
+/*text two*/
+.footer-widget h5{
+    color: var(--section-background);
+    font-size: 18px;
+    font-weight:500;
+    margin-top: 10px;
+}
+/*line*/
+.footer-copyright-text{
+    border-top: 1px solid var(--section-background);
+    padding: 10px 0;
+    margin-top: 10px;
+}
+/*pragraph*/
+.footer-copyright-text p{
+    color: var(--section-background);
+    margin-bottom: 0;
+}
+.footer-copyright-text p a{
+    text-decoration: none;
+    color:var(--main-colorr);
+}
